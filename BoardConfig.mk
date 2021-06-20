@@ -126,6 +126,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Platform
+BOARD_VENDOR := xiaomi
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msm8953
 
