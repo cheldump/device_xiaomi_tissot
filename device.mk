@@ -9,7 +9,8 @@ AB_OTA_UPDATER := true
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
+# Indicate the first api level the device has been commercially launched on
+PRODUCT_SHIPPING_API_LEVEL := 25
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
