@@ -73,6 +73,7 @@ persist.camera.stats.test=5
 persist.vendor.qti.telephony.vt_cam_interface=1
 vidc.enc.dcvs.extra-buff-count=2
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+persist.vendor.camera.aux.camera=1
 
 # Charger
 ro.charger.disable_init_blank=true
