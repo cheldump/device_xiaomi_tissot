@@ -20,4 +20,7 @@
     <string name="xd_camera_mp_summary">12MP+12MP Dual Camera</string>
     <string name="xd_screen_type_summary">IPS LCD FHD 5.5" Screen</string>
 
+    <!-- xd. Maintainer Name -->
+    <string name="xd_maintainer">rktdnt</string>
+
 </resources>
