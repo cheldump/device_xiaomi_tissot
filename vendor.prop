@@ -5,9 +5,13 @@ audio.deep_buffer.media=true
 audio.offload.disable=false
 audio.offload.min.duration.secs=30
 audio.offload.video=true
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.hw.binder.size_kbyte=1024
 persist.vendor.audio.speaker.prot.enable=false
 ro.audio.soundfx.dirac=true
+ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
@@ -64,11 +68,13 @@ camera.display.umax=1920x1080
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 camera.lowpower.record.enable=1
 media.camera.ts.monotonic=1
+persist.camera.dual.camera=0
 persist.camera.gyro.disable=0
 persist.camera.isp.clock.optmz=0
 persist.camera.stats.test=5
 persist.vendor.qti.telephony.vt_cam_interface=1
 vidc.enc.dcvs.extra-buff-count=2
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
 # Charger
 ro.charger.disable_init_blank=true
@@ -76,9 +82,6 @@ ro.charger.enable_suspend=true
 
 # CNE
 persist.vendor.cne.feature=1
-
-# Crypto
-ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Display
 debug.egl.hw=0
