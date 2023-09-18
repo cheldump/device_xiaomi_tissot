@@ -1060,5 +1060,5 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
-# Wi-Fi
-vendor/bin/wcnss_service
+# Wi-Fi - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/bin/wcnss_service|4bf3962fa1444caca2d3497e71ae4cd2ba306aa1
