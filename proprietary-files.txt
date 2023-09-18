@@ -702,6 +702,10 @@ vendor/firmware/a506_zap.mdt
 vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
+# IRQ Balance - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/bin/msm_irqbalance|e5706bc0acab394b53fafdc1d7f342f69c6f5649
+vendor/etc/msm_irqbalance.conf|3e45e1da03ab49ce9d3f855011aca00f1e417a53
+
 # Keystore - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/lib/hw/keystore.msm8953.so|c56d3768e04fc180d844dbca94be8c27770e37d5
 vendor/lib64/hw/keystore.msm8953.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
@@ -769,14 +773,12 @@ vendor/lib64/libwms.so
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/energy-awareness
-vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/msm_irqbalance.conf
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
